@@ -11,11 +11,13 @@ Tested on SemEval'15 Sentence Similarity Task. See eval_semeval15_sts.py for
 the test code.
 
 The results are:
+```
     test_evaluation_task2a/STS.gs.headlines.txt Pearson: 0.74894
     test_evaluation_task2a/STS.gs.answers-forums.txt Pearson: 0.66934
     test_evaluation_task2a/STS.gs.images.txt Pearson: 0.82016
     test_evaluation_task2a/STS.gs.belief.txt Pearson: 0.73342
     test_evaluation_task2a/STS.gs.answers-students.txt Pearson: 0.71448
+```
 
 These are at better than the results reported in the original paper.
 
