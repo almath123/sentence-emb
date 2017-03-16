@@ -1,4 +1,5 @@
 import pytest
+import numpy as np
 from sentenceemb import *
 
 @pytest.fixture(scope="module")
