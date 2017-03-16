@@ -27,6 +27,7 @@ Requires:
 
 Quick example:
 
+```
 import numpy as np
 from sentenceemb import get_sentence_vectors
 
@@ -34,5 +35,6 @@ sents = [u"This is a test.", u"A simple test sentence.", u"Don't you like my tes
 vs = get_sentence_vectors(sents)
 similarity = np.abs(np.dot(vs, vs.T))
 print similarity
+```
 
 Also see demo.py and test_sentenceemb.py for more examples.
